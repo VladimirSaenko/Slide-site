@@ -12,11 +12,16 @@ let lorem3 = document.getElementById('p3');
 let lorem4 = document.getElementById('p4');
 let lorem5 = document.getElementById('p5');
 
-color1.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + "url(img/bg1.jpg)";
-color2.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + "url(img/bg2.jpg)";
-color3.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + "url(img/bg3.jpg)";
-color4.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + "url(img/bg4.jpg)";
-color5.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + "url(img/bg5.jpg)";
+color1.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")";
+color1.style.backgroundImage = "url(img/bg1.jpg)";
+color2.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")";
+color1.style.backgroundImage = "url(img/bg2.jpg)";
+color3.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")";
+color1.style.backgroundImage = "url(img/bg3.jpg)";
+color4.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")";
+color1.style.backgroundImage = "url(img/bg4.jpg)";
+color5.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")";
+color1.style.backgroundImage = "url(img/bg5.jpg)";
 
 lorem1.addEventListener('click', function() {
     lorem1.classList.toggle('active');
@@ -39,23 +44,23 @@ lorem5.addEventListener('click', function() {
 })
 
 function getColor1() {
-    color1.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + `url(img/bg${getRandomInt(1,5)}.jpg)`;
+    color1.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + `url(img/bg${getRandomInt(1,5)}.jpg)`;
 }
 
 function getColor2() {
-    color2.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + `url(img/bg${getRandomInt(1,5)}.jpg)`;
+    color2.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + `url(img/bg${getRandomInt(1,5)}.jpg)`;
 }
 
 function getColor3() {
-    color3.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + `url(img/bg${getRandomInt(1,5)}.jpg)`;
+    color3.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + `url(img/bg${getRandomInt(1,5)}.jpg)`;
 }
 
 function getColor4() {
-    color4.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + `url(img/bg${getRandomInt(1,5)}.jpg)`;
+    color4.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + `url(img/bg${getRandomInt(1,5)}.jpg)`;
 }
 
 function getColor5() {
-    color5.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ") " + `url(img/bg${getRandomInt(1,5)}.jpg)`;
+    color5.style.background = "rgb(" + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ',' + getRandomInt(0,255) + ")" + `url(img/bg${getRandomInt(1,5)}.jpg)`;
 }
 
 function getRandomInt(min, max) {
