@@ -51,12 +51,14 @@ section:nth-child(4) {
     background: #0ff url(img/bg4.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 section:nth-child(5) {
     background: #00f url(img/bg5.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 section .content {
