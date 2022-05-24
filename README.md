@@ -2,6 +2,6 @@
 
 ## Сайт с фичей пролистывания
 
-## Portfolio: https://vladimirsaenko.github.io/Portfolio-3/sites/site-15/RGB-Slide-site/index.html
+## Portfolio: https://vladimirsaenko.github.io/Portfolio-3/sites/site-15-2/RGB-Slide-site/index.html
 
-![bg3](https://user-images.githubusercontent.com/56477695/148290567-c0a9b51b-a583-4d58-b318-29e0bcb9de94.jpg)
+![bg1](https://user-images.githubusercontent.com/56477695/170066929-6d4f9760-8eaa-4190-9831-88d13d790bb2.jpg)
