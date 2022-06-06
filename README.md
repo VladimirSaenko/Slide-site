@@ -1,4 +1,4 @@
-# RGB-Slide-site
+# Slide-site
 
 ## Сайт с фичей пролистывания
 
